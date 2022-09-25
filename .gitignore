@@ -1,4 +1,5 @@
 # Executables
 *.exe
+*.o
 # VSCode
 .vscode
