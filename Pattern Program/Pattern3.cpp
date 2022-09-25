@@ -1,26 +1,20 @@
-//Adding the header file
 #include<iostream>
 using namespace std;
-int main()
-{
+int main(){
     //Initialzing the variables
     int n;
     cin>>n;
     int i=1;
-    while (i<=n)
+    while(i<=n)
     {
         int j=1;
-        //while loop for columns
-        while (j<=i)
+         //while loop for columns
+        while(j<=n)
         {
-            //printing the pattern
             cout<<"*";
             j++;
         }
         cout<<endl;
         i++;
     }
-    
-    
-    
 }

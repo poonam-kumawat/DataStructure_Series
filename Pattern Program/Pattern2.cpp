@@ -1,4 +1,3 @@
-//Adding the header file
 #include<iostream>
 using namespace std;
 int main()
@@ -11,10 +10,10 @@ int main()
     {
         int j=1;
         //while loop for columns
-        while (j<=i)
+        while (j<=n)
         {
             //printing the pattern
-            cout<<"*";
+            cout<<i;
             j++;
         }
         cout<<endl;
