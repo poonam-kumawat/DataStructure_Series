@@ -1,7 +1,4 @@
-# Ignore files with extension `.class` & `.exe`
-
+# Executables
 *.exe
 # VSCode
 .vscode
-
-.git/info/exclude
