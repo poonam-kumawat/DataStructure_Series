@@ -13,4 +13,7 @@ int main(){
     cout<< "~a "<< (~a )<<endl;
     cout<< "a^b "<< (a^b) <<endl;
 
+    cout<<(5>>1)<<endl;
+    cout<<(5<<1)<<endl;
+
 }
