@@ -3,6 +3,7 @@ using namespace std;
 
 int getMax(int arr[],int n){
     int max=INT_MIN;
+    //maxi=max(maxi,arr[i])
     for(int i=0;i<n;i++){
         if(arr[i]>max){
             max=arr[i];
@@ -12,7 +13,9 @@ int getMax(int arr[],int n){
 
 }
 int getMin(int arr[],int n){
+    
     int min=INT_MAX;
+    //mini=max(mini,arr[i])
     for(int i=0;i<n;i++){
         if(arr[i]<min){
             min=arr[i];
