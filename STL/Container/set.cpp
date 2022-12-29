@@ -15,7 +15,7 @@ int main()
         cout<<i<<" ";
     }cout<<endl;
 
-    s.erase(s.begin());
+    s.erase(s.begin());//o(logn)
 
    for(auto i:s){
         cout<<i<<" ";
