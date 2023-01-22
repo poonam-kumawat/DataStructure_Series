@@ -9,7 +9,7 @@ char getMaxOcuuring(string s){
         int number=0;
         //lowercase
         if(ch<='a' && ch<= 'z'){
-            int number=ch-'a';
+            int number=ch -'a';
 
         }
         //uppercase
